@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ background-color: black;
+}
+
+.account{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(232, 239, 248);
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    
+
+    
+}
+
+.account-one{
+    background-color: white;
+    margin-top: -20px;
+    height: 80vh;
+    border-radius: 2px;
+    position: relative;
+    
+
+    
+}
+
+h2{
+    font-size: 25px;
+    font-family: arial;
+    
+}
+
+p{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.but{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.dad button {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 130%;
+    height: 30px;
+    border: none;
+    margin-right: 20px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.dat button{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 130%;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+}
+
+.dae button{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 125%;
+    height: 30px;
+    border: none;
+    margin-left: 40px;
+}
+
+h4{
+    padding: 30px;
+    
+}
+
+input{
+    border-radius: 15px;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 20px;
+    border: 2px solid gainsboro;
+    width: 80%
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+
+input[type=text]{
+    padding: 0px 13px;
+}
+
+
+input[type=email]{
+    padding: 0px 13px;
+}
+
+::placeholder{
+    color: blueviolet;font-size: 15px;
+
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.or span{
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 70px;
+    background-color: white;
+    
+}
+.or::before, .or::after{
+    content: "";
+    padding: 1px;
+    background-color: rgb(185, 180, 180);
+    flex: 1;
+    margin: 10px;
+}
+
+
+input[type=password]{
+    padding: 0px 13px;
+}
+
+
+input[type=confirm]{
+    padding: 0px 13px;
+}
+
+.user{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-one{
+    position: relative;
+}
+
+.ven button{
+   margin-top: 30px;
+   background-color: green;
+   border-radius: 15px;
+   color: white;
+   font-size: 15px;
+   height: 35px;
+   width: 85%;
+   margin-left: 20px;
+   border: 1px;
+   cursor: pointer;
+}
+
+.ven button:hover{
+  background-color: blueviolet;
+  color: black;
+}
+
+
+@media(max-width:1109px){
+    .account-one{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dad button {
+        
+        color: white;
+        font-size: 15px;
+        
+       
+       
+        
+       
+        
+    }
+
+    .dae button{
+        color: white;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+
+
+    .but{
+        display: flex;
+        gap: 20px;
+        margin-left: 10px;
+    }
+}
